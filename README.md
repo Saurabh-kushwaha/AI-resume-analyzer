@@ -42,8 +42,8 @@ This tool helps:
 
 ## 📸 Demo
 
-(Add screenshots here)
+()
 
 ## 🔗 Live Demo
 
-(Add deployed link)
+()
