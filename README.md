@@ -42,8 +42,8 @@ This tool helps:
 
 ## 📸 Demo
 
-()
+NA
 
 ## 🔗 Live Demo
 
-()
+NA
