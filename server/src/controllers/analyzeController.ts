@@ -1,10 +1,11 @@
 // src/controllers/analyzeController.ts
 import { Request, Response } from "express";
+import type { Express } from "express";
 import { parseFile } from "../utils/fileParser";
 import { analyzeResume } from "../services/analyzeService";
 
 export const analyzeController = async (
-  req: Request,
+  req: Request & { file?: Express.Multer.File },
   res: Response
 ) => {
   try {

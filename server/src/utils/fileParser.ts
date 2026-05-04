@@ -1,6 +1,6 @@
 // src/utils/fileParser.ts
-import pdfParse from "pdf-parse";
 import mammoth from "mammoth";
+const pdfParse = require("pdf-parse");
 
 export const parseFile = async (file: Express.Multer.File): Promise<string> => {
   if (!file || !file.buffer) {
