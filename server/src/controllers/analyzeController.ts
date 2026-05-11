@@ -1,6 +1,5 @@
 // src/controllers/analyzeController.ts
 import { Request, Response } from "express";
-import type { Express } from "express";
 import { parseFile } from "../utils/fileParser";
 import { analyzeResume } from "../services/analyzeService";
 
