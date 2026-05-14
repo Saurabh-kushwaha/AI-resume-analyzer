@@ -35,3 +35,19 @@ const innerfunction = outerFunction();
 console.log(innerfunction());
 console.log(innerfunction());
 console.log(innerfunction());
+
+const array = [1, 30, 4, 21, 100000];
+array
+  .sort((a, b) => {
+    return a - b;
+  })
+  .reverse();
+console.log(array);
+
+// convert array to object
+const arr = ["a", "b", "c"];
+const obj = {};
+arr.map((item, index) => {
+  obj[index] = item;
+});
+console.log(obj);
