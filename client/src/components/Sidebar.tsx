@@ -10,7 +10,7 @@ const menuItems: string[] = [
 
 const Sidebar: React.FC = () => {
   return (
-    <div className="w-60 h-screen bg-card p-5">
+    <div className="h-screen bg-card p-5">
       <h1 className="text-white text-xl mb-8 font-semibold">AI Resume</h1>
 
       {menuItems.map((item) => (
